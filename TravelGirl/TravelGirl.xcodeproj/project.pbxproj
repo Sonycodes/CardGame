@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF689B2B2A40BE85009200C3 /* TravelGirlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF689B2A2A40BE85009200C3 /* TravelGirlApp.swift */; };
+		CF689B2D2A40BE85009200C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF689B2C2A40BE85009200C3 /* ContentView.swift */; };
+		CF689B2F2A40BE87009200C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF689B2E2A40BE87009200C3 /* Assets.xcassets */; };
+		CF689B322A40BE87009200C3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF689B312A40BE87009200C3 /* Preview Assets.xcassets */; };
+		CF689B442A40BEAF009200C3 /* ChatListProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF689B382A40BEAF009200C3 /* ChatListProject.swift */; };
+		CF689B452A40BEAF009200C3 /* ChatPageMeriem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF689B392A40BEAF009200C3 /* ChatPageMeriem.swift */; };
+		CF689B462A40BEAF009200C3 /* AnswerMeriem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF689B3A2A40BEAF009200C3 /* AnswerMeriem.swift */; };
+		CF689B472A40BEAF009200C3 /* ChatNearMeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF689B3B2A40BEAF009200C3 /* ChatNearMeRow.swift */; };
+		CF689B482A40BEAF009200C3 /* ChartListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF689B3C2A40BEAF009200C3 /* ChartListRow.swift */; };
+		CF689B492A40BEAF009200C3 /* ProjectReserchChatview.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF689B3D2A40BEAF009200C3 /* ProjectReserchChatview.swift */; };
+		CF689B4A2A40BEAF009200C3 /* ChatPageProject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF689B3E2A40BEAF009200C3 /* ChatPageProject.swift */; };
+		CF689B4B2A40BEAF009200C3 /* TextFieldChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF689B3F2A40BEAF009200C3 /* TextFieldChat.swift */; };
+		CF689B4C2A40BEAF009200C3 /* MessageChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF689B402A40BEAF009200C3 /* MessageChat.swift */; };
+		CF689B4D2A40BEAF009200C3 /* NearMeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF689B412A40BEAF009200C3 /* NearMeList.swift */; };
+		CF689B4E2A40BEAF009200C3 /* ProjectMessagerieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF689B422A40BEAF009200C3 /* ProjectMessagerieView.swift */; };
+		CF689B4F2A40BEAF009200C3 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF689B432A40BEAF009200C3 /* SearchBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF689B272A40BE85009200C3 /* TravelGirl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelGirl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF689B2A2A40BE85009200C3 /* TravelGirlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelGirlApp.swift; sourceTree = "<group>"; };
+		CF689B2C2A40BE85009200C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CF689B2E2A40BE87009200C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF689B312A40BE87009200C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CF689B382A40BEAF009200C3 /* ChatListProject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatListProject.swift; path = ../../ChatListProject.swift; sourceTree = "<group>"; };
+		CF689B392A40BEAF009200C3 /* ChatPageMeriem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatPageMeriem.swift; path = ../../ChatPageMeriem.swift; sourceTree = "<group>"; };
+		CF689B3A2A40BEAF009200C3 /* AnswerMeriem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AnswerMeriem.swift; path = ../../AnswerMeriem.swift; sourceTree = "<group>"; };
+		CF689B3B2A40BEAF009200C3 /* ChatNearMeRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatNearMeRow.swift; path = ../../ChatNearMeRow.swift; sourceTree = "<group>"; };
+		CF689B3C2A40BEAF009200C3 /* ChartListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChartListRow.swift; path = ../../ChartListRow.swift; sourceTree = "<group>"; };
+		CF689B3D2A40BEAF009200C3 /* ProjectReserchChatview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectReserchChatview.swift; path = ../../ProjectReserchChatview.swift; sourceTree = "<group>"; };
+		CF689B3E2A40BEAF009200C3 /* ChatPageProject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ChatPageProject.swift; path = ../../ChatPageProject.swift; sourceTree = "<group>"; };
+		CF689B3F2A40BEAF009200C3 /* TextFieldChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextFieldChat.swift; path = ../../TextFieldChat.swift; sourceTree = "<group>"; };
+		CF689B402A40BEAF009200C3 /* MessageChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageChat.swift; path = ../../MessageChat.swift; sourceTree = "<group>"; };
+		CF689B412A40BEAF009200C3 /* NearMeList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NearMeList.swift; path = ../../NearMeList.swift; sourceTree = "<group>"; };
+		CF689B422A40BEAF009200C3 /* ProjectMessagerieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProjectMessagerieView.swift; path = ../../ProjectMessagerieView.swift; sourceTree = "<group>"; };
+		CF689B432A40BEAF009200C3 /* SearchBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchBar.swift; path = ../../SearchBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF689B242A40BE85009200C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF689B1E2A40BE85009200C3 = {
+			isa = PBXGroup;
+			children = (
+				CF689B292A40BE85009200C3 /* TravelGirl */,
+				CF689B282A40BE85009200C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF689B282A40BE85009200C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF689B272A40BE85009200C3 /* TravelGirl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF689B292A40BE85009200C3 /* TravelGirl */ = {
+			isa = PBXGroup;
+			children = (
+				CF689B2A2A40BE85009200C3 /* TravelGirlApp.swift */,
+				CF689B2C2A40BE85009200C3 /* ContentView.swift */,
+				CF689B3A2A40BEAF009200C3 /* AnswerMeriem.swift */,
+				CF689B3C2A40BEAF009200C3 /* ChartListRow.swift */,
+				CF689B382A40BEAF009200C3 /* ChatListProject.swift */,
+				CF689B3B2A40BEAF009200C3 /* ChatNearMeRow.swift */,
+				CF689B392A40BEAF009200C3 /* ChatPageMeriem.swift */,
+				CF689B3E2A40BEAF009200C3 /* ChatPageProject.swift */,
+				CF689B402A40BEAF009200C3 /* MessageChat.swift */,
+				CF689B412A40BEAF009200C3 /* NearMeList.swift */,
+				CF689B422A40BEAF009200C3 /* ProjectMessagerieView.swift */,
+				CF689B3D2A40BEAF009200C3 /* ProjectReserchChatview.swift */,
+				CF689B432A40BEAF009200C3 /* SearchBar.swift */,
+				CF689B3F2A40BEAF009200C3 /* TextFieldChat.swift */,
+				CF689B2E2A40BE87009200C3 /* Assets.xcassets */,
+				CF689B302A40BE87009200C3 /* Preview Content */,
+			);
+			path = TravelGirl;
+			sourceTree = "<group>";
+		};
+		CF689B302A40BE87009200C3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CF689B312A40BE87009200C3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF689B262A40BE85009200C3 /* TravelGirl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF689B352A40BE87009200C3 /* Build configuration list for PBXNativeTarget "TravelGirl" */;
+			buildPhases = (
+				CF689B232A40BE85009200C3 /* Sources */,
+				CF689B242A40BE85009200C3 /* Frameworks */,
+				CF689B252A40BE85009200C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TravelGirl;
+			productName = TravelGirl;
+			productReference = CF689B272A40BE85009200C3 /* TravelGirl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF689B1F2A40BE85009200C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CF689B262A40BE85009200C3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CF689B222A40BE85009200C3 /* Build configuration list for PBXProject "TravelGirl" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF689B1E2A40BE85009200C3;
+			productRefGroup = CF689B282A40BE85009200C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF689B262A40BE85009200C3 /* TravelGirl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF689B252A40BE85009200C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF689B322A40BE87009200C3 /* Preview Assets.xcassets in Resources */,
+				CF689B2F2A40BE87009200C3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF689B232A40BE85009200C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF689B472A40BEAF009200C3 /* ChatNearMeRow.swift in Sources */,
+				CF689B4B2A40BEAF009200C3 /* TextFieldChat.swift in Sources */,
+				CF689B2D2A40BE85009200C3 /* ContentView.swift in Sources */,
+				CF689B4D2A40BEAF009200C3 /* NearMeList.swift in Sources */,
+				CF689B4E2A40BEAF009200C3 /* ProjectMessagerieView.swift in Sources */,
+				CF689B482A40BEAF009200C3 /* ChartListRow.swift in Sources */,
+				CF689B442A40BEAF009200C3 /* ChatListProject.swift in Sources */,
+				CF689B4F2A40BEAF009200C3 /* SearchBar.swift in Sources */,
+				CF689B462A40BEAF009200C3 /* AnswerMeriem.swift in Sources */,
+				CF689B492A40BEAF009200C3 /* ProjectReserchChatview.swift in Sources */,
+				CF689B4C2A40BEAF009200C3 /* MessageChat.swift in Sources */,
+				CF689B4A2A40BEAF009200C3 /* ChatPageProject.swift in Sources */,
+				CF689B2B2A40BE85009200C3 /* TravelGirlApp.swift in Sources */,
+				CF689B452A40BEAF009200C3 /* ChatPageMeriem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CF689B332A40BE87009200C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF689B342A40BE87009200C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF689B362A40BE87009200C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelGirl/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sonia.com.TravelGirl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF689B372A40BE87009200C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TravelGirl/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Sonia.com.TravelGirl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF689B222A40BE85009200C3 /* Build configuration list for PBXProject "TravelGirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF689B332A40BE87009200C3 /* Debug */,
+				CF689B342A40BE87009200C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF689B352A40BE87009200C3 /* Build configuration list for PBXNativeTarget "TravelGirl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF689B362A40BE87009200C3 /* Debug */,
+				CF689B372A40BE87009200C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF689B1F2A40BE85009200C3 /* Project object */;
+}
